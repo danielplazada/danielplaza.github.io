@@ -1,19 +1,39 @@
+head{
+background-size: cover;
+  background-color: #fff;
+}
+
 body {
     text-align: center;
     background-size: cover;
-    background-image: url("image.jpg");
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%,
+      rgba(50,0,154,1) 0%, rgba(163,67,192,1) 100%);
 }
 
 h1 {
-    font-family: Monoton;
-    font-size: 70px;
-    margin: 0.2em;
+  left: 0px;
+  width: 300px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 120px;
+  margin-bottom: -110px;
+
 }
 
 h2 {
-    margin: 1em 0 0.25em;
+  text-align: left;
+  width: 500px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 95px;
+  position: float;
 }
 
-h2:first-of-type {
-    margin-top: 0.5em;
+.headerbox1 {
+  border: 1px solid black;
+  margin: 0px;
+  padding:0px;
+  height: 300;
+  width: 300;
 }
