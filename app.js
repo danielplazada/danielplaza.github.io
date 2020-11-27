@@ -1,10 +1,19 @@
-const navSlide = () => {
-    const burger = document.querySelector(`.burger`);
-    const nav = document.querySelector(`.nav-links`);
+(function() {
 
-    burger.addEventListener(`click`, () => {
-        nav.classList.toggle(`nav-active`);
-    });
-}
-navSlide();
+    var hamburger = {
+      navToggle: document.querySelector('.nav_tgl'),
+      nav: document.querySelector('nav'),
+  
+      doToggle: function(e) {
+        e.preventDefault();
+        this.navToggle.classList.toggle('expanded');
+        this.nav.classList.toggle('expanded');
+      }
+    };
+  
+    hamburger.navToggle.addEventListener('click', function(e) { hamburger.doToggle(e); });
+    hamburger.nav.addEventListener('click', function(e) { hamburger.doToggle(e); });
+  
+  }());
 
+  
