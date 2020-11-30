@@ -17,7 +17,6 @@ h1 {
 h2 {
     text-transform: uppercase;
     margin-left: 10px;
-    padding-top:90px;
     text-align: center;
     contain: content;
     font-size:50px;
@@ -50,6 +49,6 @@ h6 {
     padding: 0px;
 }
 a{
-    color: yellow;
+    color: rgb(255, 145, 0);
     font-size: 20px;
 }

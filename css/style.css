@@ -2,6 +2,7 @@
 @import "flex_box.css";
 @import "nav_bar.css";
 @import "nav_bar_tgl.css";
+@import "icons.css";
 
 body{
   background-color:rgb(0, 0, 0);
